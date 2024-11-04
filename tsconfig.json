@@ -36,7 +36,10 @@
     "resolveJsonModule": true,
     "allowJs": false,
     "skipLibCheck": true,
-    "checkJs": false
+    "checkJs": false,
+    "paths": {
+      "@common/*": ["src/common/*"]
+    }
   },
   "include": ["**/*.ts", ".eslintrc.js"],
   "exclude": ["node_modules", "dist", ".vscode/**/*"]
